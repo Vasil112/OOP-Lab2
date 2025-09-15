@@ -1,0 +1,20 @@
+﻿<Window x:Class="OOPLab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOPLab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="312" Width="241">
+    <Grid Margin="0,0,-579,-6">
+        <Label Content="Значення x:" HorizontalAlignment="Left" Margin="33,45,684,0" VerticalAlignment="Top"/>
+        <Label Content="Значення y:" HorizontalAlignment="Left" Margin="33,85,0,0" VerticalAlignment="Top"/>
+        <Label Content="Значення z:" HorizontalAlignment="Left" Margin="33,125,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Lab1" HorizontalAlignment="Left" Margin="121,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="TextBox_TextChanged" Height="26" RenderTransformOrigin="1.655,0.794"/>
+        <TextBox x:Name="Lab2" HorizontalAlignment="Left" Margin="121,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="26" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="Lab3" HorizontalAlignment="Left" Margin="121,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="26" TextChanged="TextBox_TextChanged_2"/>
+        <Button Content="Обчислити" HorizontalAlignment="Left" Margin="44,189,0,0" VerticalAlignment="Top" Width="117" Click="Button_Click"/>
+        <Label x:Name="LabExt" Content="" HorizontalAlignment="Left" Margin="44,224,0,0" VerticalAlignment="Top" Width="119"/>
+
+    </Grid>
+</Window>
